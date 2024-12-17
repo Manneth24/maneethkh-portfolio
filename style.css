@@ -1,0 +1,100 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif; /* Georgia font applied */
+}
+
+body {
+    background-color: #f9f9f9; /* Light background for clean look */
+    color: #333; /* Dark gray for text */
+    line-height: 1.6;
+    padding: 0;
+}
+
+/* Header Section */
+.header {
+    background-color: #5E3023; /* Maroon background */
+    color: #F3E9DC; /* Cream text */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.name {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #FFD700; /* Gold links */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Layout */
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section Styling with 3D Shadow */
+section {
+    background-color: #F3E9DC; /* Cream background */
+    padding: 20px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px;
+    box-shadow: 
+        0 4px 6px rgba(0, 0, 0, 0.2),
+        0 10px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 
+        0 10px 15px rgba(0, 0, 0, 0.3),
+        0 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Section Titles */
+.section-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #5E3023; /* Maroon color */
+    margin-bottom: 10px;
+    border-bottom: 2px solid #5E3023; /* Maroon border */
+}
+
+/* List Styling */
+section ul {
+    list-style: square;
+    margin-left: 20px;
+}
+
+section p {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Footer */
+.footer {
+    background-color: #5E3023; /* Maroon background */
+    color: #F3E9DC; /* Cream text */
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
